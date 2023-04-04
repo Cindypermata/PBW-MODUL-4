@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kita Laundry</title>
+    <link rel="stylesheet" href="project3laundry.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <div class="container-flex">
+                    <div class="brand">
+                        <a href="">KitaLaundry</a>
+                    </div>
+                    <div class="burger">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                     </div>
+                    <div class="bg-sidebar"></div>
+                    <ul class="sidebar">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#cs">Customor Service</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#akun">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- <script src="project3.js"></script> -->
+
+        <!-- <nav class="wrapper">
+            <input id="nav-toggle" type="checkbox">
+            <div class="brand">
+                <div class="firstname">kita</div>
+                <div class="lastname">laundry</div>    
+            </div>
+            <ul class="navigation">
+                <li><a href="home">Home</a></li>
+                <li><a href="tentang">Tentang</a></li>
+                <li><a href="aduan">Customer Service</a></li>
+                <li><a href="akun" class="active">Sign Up</a></li>
+            </ul>
+            <label form="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav> -->
+    </header>
+    <div class="banner">
+        <div class="produk">
+            <h1>KITA<span>-</span>LAUNDRY</h1>
+            <h2>Tanpa ribet! Disi semakin bersih dan wangi.</h2>
+        </div>
+    </div>
+
+    <div class="produk">
+        <div class="content" id="menu">
+            <h3 class="judul">PILIHAN PAKET KITA</h3>
+            <div class="menu">
+                <img src="g1.png" height="450" width="300">
+                <p>SUPER EXPRESS</p>
+            </div>
+            <div class="menu">
+                <img src="g2.png" height="450" width="300">
+                <p>X-PRESS</p>
+            </div>
+            <div class="menu">
+                <img src="g3.png" height="450" width="300">
+                <p>REGULAR</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <h3 class="judul-content">Pemesanan Dibawah Ini!</h3>
+        <div class="form">
+            <form>
+                <table>
+                    <tr>
+                        <th colspan="2">Log in</th>
+                    </tr>            
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password"></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit" value ="Selesai">Masuk</button></td>
+                        <td><button type="reset" value ="Hapus">Hapus</button></td>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div class="contact2">
+        <h3 class="judul-content2">Check Harga</h3>
+        <div class="form2">
+            <form>
+                <table>
+                    <tr>
+                        <td>Harga PerKg</td>
+                        <td>:</td>
+                        <td><input type="number" id="harga"></td>
+                    </tr>
+                    <tr>
+                        <td>Berat Barang (Kg)</td>
+                        <td>:</td>
+                        <td><input type="number" id="berat"></td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>:</td>
+                        <td><input type="text" id="total"></td>
+                    </tr>
+                </table>
+                <button type="button" onclick="klik()">Check</button>
+            </form>
+        </div>     
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <div class="firstname">Kita</div>
+            <div class="lastname">Laundry</div>    
+        </div>
+        <div class="footer-list">
+            <ul class="navigation2">
+                <li><a href="lokasi">Lokasi</a></li>
+                <li><a href="sosmed">Sosial Media</a></li>
+                <li><a href="info">More Info</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="button-top" onclick="scrolling()">
+        <i class="bi bi-chevron-double-up"></i>
+        <!-- <i class="bi bi-prescription2"></i> -->
+    </div>
+    <script src="project3.js"></script>
+</body>
+</html>
